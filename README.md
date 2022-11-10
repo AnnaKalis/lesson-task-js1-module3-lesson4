@@ -7,7 +7,7 @@
 Using the `CORS_URL` variable below, convert the API call inside the `getElephants` function to use the cors-anywhere link, such that the API call will succeed.
 
 ```js
-const CORS_URL = "https://noroffcors.herokuapp.com/";
+const CORS_URL = "https://noroffcors.onrender.com/";
 ```
 
 ```js
