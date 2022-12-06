@@ -4,24 +4,6 @@
 
 ### Question 1
 
-Using the `CORS_URL` variable below, convert the API call inside the `getElephants` function to use the cors-anywhere link, such that the API call will succeed.
-
-```js
-const CORS_URL = "https://noroffcors.onrender.com/";
-```
-
-```js
-const API_URL = "https://elephant-api.herokuapp.com/elephants";
-
-async function getElephants() {
-  const response = await fetch(API_URL);
-  const results = await response.json();
-  console.log(results);
-}
-```
-
-### Question 2
-
 Add headers to the below API call.
 
 You can choose whether to create a variable for the headers object seperately from the call and pass the variable in as the second parameter, or pass the headers object in directly.
