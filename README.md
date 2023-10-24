@@ -11,6 +11,7 @@ You can choose whether to create a variable for the headers object seperately fr
 ```js
 const API_URL = "https://mashape-community-urban-dictionary.p.rapidapi.com/define?term=wat";
 
+
 async function callUrbanDictionary() {
   const response = await fetch(API_URL);
   const results = await response.json();
